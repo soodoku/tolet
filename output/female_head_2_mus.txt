@@ -1,0 +1,16 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	RECODE of wealth_index (wealth index)	avg_education_members	number of household members	avg_age_members	child_prop	old_prop
+							
+sex_head	sex of head of household	0.074***	-0.816***	-1.160***	1.869***	-0.014***	0.057***
+		(0.002)	(0.015)	(0.011)	(0.083)	(0.001)	(0.002)
+1.muslim	muslim = 1	-0.008*	-0.904***	0.493***	-2.657***	0.045***	-0.020***
+		(0.004)	(0.029)	(0.022)	(0.113)	(0.002)	(0.002)
+1.sex_head#1.muslim		-0.019***	0.242***	-0.161***	-1.316***	0.023***	-0.024***
+		(0.006)	(0.041)	(0.036)	(0.232)	(0.004)	(0.004)
+Constant	Constant	0.554***	4.925***	4.970***	31.385***	0.262***	0.125***
+		(0.001)	(0.004)	(0.003)	(0.016)	(0.000)	(0.000)
+							
+Observations		425,563	425,532	425,563	425,549	425,563	425,563
+R-squared		0.389	0.273	0.168	0.129	0.130	0.088
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							

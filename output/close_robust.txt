@@ -1,0 +1,28 @@
+	(1)	(2)	(3)
+VARIABLES	covered	covered	covered
+			
+muslim	-0.0194	-0.0249	-0.00972
+	(0.0216)	(0.0247)	(0.0302)
+muslim_margin	0.00502	0.00856*	0.00308
+	(0.00332)	(0.00471)	(0.00889)
+c.muslim#c.muslim_margin	-0.00562	-0.0100	-0.0103
+	(0.00471)	(0.00692)	(0.0125)
+femalereservation	-0.00780	-0.0166	-0.0171
+	(0.0258)	(0.0294)	(0.0365)
+c.femalereservation#c.muslim	0.00389	0.0162	0.0205
+	(0.0352)	(0.0402)	(0.0497)
+c.femalereservation#c.muslim_margin	-0.00281	-0.00828	-0.0105
+	(0.00536)	(0.00799)	(0.0149)
+c.femalereservation#c.muslim#c.muslim_margin	0.00321	0.00811	0.0106
+	(0.00785)	(0.0118)	(0.0213)
+runningvar2_norm_std	-0.0286	-0.0320	-0.0318
+	(0.0186)	(0.0208)	(0.0254)
+c.runningvar2_norm_std#c.femalereservation	0.0379*	0.0398*	0.0332
+	(0.0206)	(0.0231)	(0.0275)
+Constant	0.120***	0.125***	0.118***
+	(0.0174)	(0.0196)	(0.0240)
+			
+Observations	943,224	777,713	569,103
+R-squared	0.002	0.002	0.002
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

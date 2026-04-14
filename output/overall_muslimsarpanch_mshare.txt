@@ -1,0 +1,24 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	muslimsarpanch	muslimsarpanch	muslimsarpanch
+				
+femalereservation	Female reservation	-0.0207	-0.0261	-0.0203
+		(0.0164)	(0.0194)	(0.0249)
+c.femalereservation#c.muslim_share		0.0661	0.0696	0.0740
+		(0.203)	(0.238)	(0.299)
+runningvar2_norm_std	runningvar2_norm_std	0.185	0.299	0.155
+		(0.148)	(0.223)	(0.414)
+c.femaleinstrument#c.runningvar2_norm_std		-0.220	-0.256	-0.293
+		(0.205)	(0.321)	(0.606)
+muslim_share	Muslim share	1.246***	1.263***	1.271***
+		(0.0816)	(0.0935)	(0.113)
+c.runningvar2_norm_std#c.muslim_share		0.838	1.620	2.223
+		(1.637)	(2.492)	(4.525)
+c.femaleinstrument#c.runningvar2_norm_std#c.muslim_share		-1.547	-3.290	-4.500
+		(2.326)	(3.561)	(6.554)
+Constant	Constant	-0.0540***	-0.0516***	-0.0536***
+		(0.00746)	(0.00847)	(0.0102)
+				
+Observations		9,179	7,234	5,277
+R-squared		0.408	0.403	0.398
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

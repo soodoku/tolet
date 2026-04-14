@@ -1,0 +1,16 @@
+	(1)
+VARIABLES	tot_new
+	
+female_new	90.48
+	(96.66)
+runningvar2_norm_std	955.8
+	(851.9)
+c.femaleinstrument#c.runningvar2_norm_std	-274.9
+	(1,337)
+Constant	2,537***
+	(42.94)
+	
+Observations	9,203
+R-squared	0.000
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

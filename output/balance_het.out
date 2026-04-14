@@ -1,0 +1,24 @@
+	(1)
+VARIABLES	tot_new
+	
+femalereservation	33.82
+	(125.4)
+c.femalereservation#c.muslim_share	502.1
+	(668.1)
+runningvar2_norm_std	1,584
+	(1,096)
+c.femaleinstrument#c.runningvar2_norm_std	-847.0
+	(1,787)
+muslim_share	280.5
+	(234.2)
+c.runningvar2_norm_std#c.muslim_share	-4,925
+	(5,092)
+c.femaleinstrument#c.runningvar2_norm_std#c.muslim_share	2,753
+	(9,132)
+Constant	2,502***
+	(54.85)
+	
+Observations	9,203
+R-squared	0.003
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

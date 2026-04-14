@@ -1,0 +1,38 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lccc} \hline
+ & (1) & (2) & (3) \\
+VARIABLES & dependent & dependent & dependent \\ \hline
+ &  &  &  \\
+femalereservation & 0.00663 & 0.00669 & 0.0191 \\
+ & (0.0358) & (0.0431) & (0.0553) \\
+c.femalereservation\#c.muslim\_share2010 & 0.106 & 0.0939 & 0.0275 \\
+ & (0.182) & (0.204) & (0.244) \\
+c.femalereservation\#c.diff & -0.0997 & -0.160 & 0.0604 \\
+ & (0.532) & (0.660) & (0.819) \\
+runningvar2\_norm\_std & -0.0785 & 0.408 & 0.938 \\
+ & (0.346) & (0.532) & (0.959) \\
+c.femaleinstrument\#c.runningvar2\_norm\_std & -0.604 & -1.584** & -3.242** \\
+ & (0.493) & (0.763) & (1.360) \\
+muslim\_share2010 & -0.138** & -0.182** & -0.214** \\
+ & (0.0687) & (0.0786) & (0.0988) \\
+c.runningvar2\_norm\_std\#c.muslim\_share2010 & -1.356 & -3.664 & -6.112 \\
+ & (1.380) & (2.315) & (4.460) \\
+c.femaleinstrument\#c.runningvar2\_norm\_std\#c.muslim\_share2010 & 1.663 & 6.722** & 14.33** \\
+ & (2.130) & (3.342) & (6.024) \\
+diff & 0.0268 & -0.0276 & -0.158 \\
+ & (0.221) & (0.262) & (0.332) \\
+c.runningvar2\_norm\_std\#c.diff & -1.654 & -4.816 & -13.37 \\
+ & (4.085) & (7.123) & (13.56) \\
+c.femaleinstrument\#c.runningvar2\_norm\_std\#c.diff & 5.793 & 13.85 & 19.92 \\
+ & (7.718) & (12.53) & (19.90) \\
+Constant & 0.303*** & 0.312*** & 0.319*** \\
+ & (0.0171) & (0.0198) & (0.0244) \\
+ &  &  &  \\
+Observations & 7,097 & 5,600 & 4,108 \\
+ R-squared & 0.002 & 0.002 & 0.003 \\ \hline
+\multicolumn{4}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{4}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}

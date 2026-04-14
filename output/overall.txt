@@ -1,0 +1,16 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	covered	covered	covered
+				
+femalereservation	Female reservation	0.0133	0.0200	0.0285
+		(0.0156)	(0.0186)	(0.0235)
+runningvar2_norm_std	runningvar2_norm_std	-0.375***	-0.485**	-0.599
+		(0.139)	(0.211)	(0.373)
+c.femaleinstrument#c.runningvar2_norm_std		0.357	0.336	0.165
+		(0.226)	(0.343)	(0.589)
+Constant	Constant	0.101***	0.0982***	0.0962***
+		(0.00667)	(0.00756)	(0.00909)
+				
+Observations		2,470,191	1,962,725	1,457,226
+R-squared		0.000	0.000	0.000
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

@@ -1,0 +1,161 @@
+|   readme.txt
+|   tree.txt
+|   
++---code
+|       figure_c10_mccrary_close.do
+|       figure_c1_table_c3col1_2_c16.do
+|       figure_c2.do
+|       figure_c3.do
+|       figure_c4_a_b_rdheterogeneity.do
+|       figure_c4_c_d_rdheterogeneityquad.do
+|       figure_c5ai_rd_plots_hetero20.do
+|       figure_c5bj_rd_plots_hetero30.do
+|       figure_c5ck_rd_plots_hetero40.do
+|       figure_c5dl_rd_plots_hetero50.do
+|       figure_c5em_rd_plots_hetero20_quad.do
+|       figure_c5fn_rd_plots_hetero30_quad.do
+|       figure_c5go_rd_plots_hetero40_quad.do
+|       figure_c5hp_rd_plots_hetero50_quad.do
+|       figure_c6_coefplot_mshare.do
+|       figure_c7.do
+|       figure_c8_fhh_muslimshare.do
+|       figure_c9_coefplot_fhh.do
+|       fig_1_a_mccrary.do
+|       fig_1_b_firststageoverall.do
+|       fig_2_a_rd_plots_overall.do
+|       fig_2_b_rd_plots_overall_quadratic.do
+|       main.do
+|       table_1_3_5_c6_c8_c9_c13_c14_c17_c18.do
+|       table_2.do
+|       table_4.do
+|       table_c1.do
+|       table_c10_muslimshare_correlates.do
+|       table_c11_covariates_balance_interaction.do
+|       table_c12_mshare_controls.do
+|       table_c2.do
+|       table_c20_c22_close_election.do
+|       table_c21_cov_balance_close.do
+|       table_c3_col3_4.do
+|       table_c4_summary_stats.do
+|       table_c5_c15_c19_covariates_balance_main_nrega.do
+|       table_c7.do
+|       
++---data
+|       census 2011 tehsil level religion.dta
+|       data_toilet_nfhs.xlsx
+|       district tehsil block matching.dta
+|       final election caste sbm.dta
+|       IAHR71FL.DTA
+|       IAIR71FL.DTA
+|       matching_district_nfhs_admin.xlsx
+|       reds_femalehead_mechanism.dta
+|       reds_femalehead_polparticipation.dta
+|       SBM beneficiaries with gp details compressed.dta
+|       SBM_panel.dta
+|       SBM_panel_full.dta
+|       survey_sanitation_2014.dta
+|       
+\---output
+        balance.out
+        balance.tex
+        balance.txt
+        balance_het.out
+        balance_het.tex
+        balance_het.txt
+        close_balance.tex
+        close_balance.txt
+        close_election.tex
+        close_election.txt
+        close_robust.tex
+        close_robust.txt
+        coefplot_heterogeneity_muslim.eps
+        coefplot_heterogeneity_muslim_fhh.eps
+        coefplot_heterogeneity_nonmuslim.eps
+        coefplot_heterogeneity_nonmuslim_fhh.eps
+        decision_making_het_main.tex
+        decision_making_het_main.txt
+        decision_making_main.tex
+        decision_making_main.txt
+        estimated_and_true_muslim_share_tehsil_lfit.eps
+        femalehead_polparticipation.tex
+        femalehead_polparticipation.txt
+        female_head_2.tex
+        female_head_2.txt
+        female_head_2_mus.tex
+        female_head_2_mus.txt
+        fhh_mshare.eps
+        firststage.tex
+        firststage.txt
+        firststage_hetero.tex
+        firststage_hetero.txt
+        firststage_hetero_mshare.tex
+        firststage_hetero_mshare.txt
+        mcrary_plot_dcdensity.eps
+        mcrary_plot_dcdensity_hindumuslim.eps
+        mechanism_women.tex
+        mechanism_women.txt
+        muslimeshare_correlates.txt
+        muslimeshare_correlates.xls
+        muslimsarpanch_muslimshare.png
+        muslim_share_hist.eps
+        nfhs_admin_data_scatter_fit_UP.pdf
+        NREGA gp het_diff.tex
+        NREGA gp het_diff.txt
+        NREGA gp.tex
+        NREGA gp.txt
+        overall.tex
+        overall.txt
+        overall_femalehh.tex
+        overall_femalehh.txt
+        overall_femalehh_panel.tex
+        overall_femalehh_panel.txt
+        overall_mshare.tex
+        overall_mshare.txt
+        overall_mshare_control.tex
+        overall_mshare_control.txt
+        overall_mshare_diff.tex
+        overall_mshare_diff.txt
+        overall_mshare_quadratic.tex
+        overall_mshare_quadratic.txt
+        overall_muslimsarpanch_mshare.tex
+        overall_muslimsarpanch_mshare.txt
+        overall_sc.tex
+        overall_sc.txt
+        pretreatmentoutcome.tex
+        pretreatmentoutcome.txt
+        pretreatmentoutcome_het.tex
+        pretreatmentoutcome_het.txt
+        rd_plotfirst10.eps
+        rd_plot_second10.eps
+        rd_plot_second10_msharehigh.eps
+        rd_plot_second10_msharehigh_20threshold.eps
+        rd_plot_second10_msharehigh_20threshold_quad.eps
+        rd_plot_second10_msharehigh_30threshold.eps
+        rd_plot_second10_msharehigh_30threshold_quad.eps
+        rd_plot_second10_msharehigh_40threshold.eps
+        rd_plot_second10_msharehigh_40threshold_quad.eps
+        rd_plot_second10_msharehigh_50threshold.eps
+        rd_plot_second10_msharehigh_50threshold_quad.eps
+        rd_plot_second10_msharehigh_quadratic.eps
+        rd_plot_second10_msharelow.eps
+        rd_plot_second10_msharelow_20threshold.eps
+        rd_plot_second10_msharelow_20threshold_quad.eps
+        rd_plot_second10_msharelow_30threshold.eps
+        rd_plot_second10_msharelow_30threshold_quad.eps
+        rd_plot_second10_msharelow_40threshold.eps
+        rd_plot_second10_msharelow_40threshold_quad.eps
+        rd_plot_second10_msharelow_50threshold.eps
+        rd_plot_second10_msharelow_50threshold_quad.eps
+        rd_plot_second10_msharelow_quadratic.eps
+        rd_plot_second10_quadratic.eps
+        toiletpref_muslimshare.tex
+        toiletpref_muslimshare.txt
+        toiletpref_muslimshare_hindu.tex
+        toiletpref_muslimshare_hindu.txt
+        toilterpref_hasdaughter_SQUAT.tex
+        toilterpref_hasdaughter_SQUAT.txt
+        toilterpref_muslim_SQUAT.tex
+        toilterpref_muslim_SQUAT.txt
+        toilterpref_SQUAT.tex
+        toilterpref_SQUAT.txt
+        

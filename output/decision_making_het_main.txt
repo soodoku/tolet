@@ -1,0 +1,24 @@
+		(1)	(2)
+VARIABLES	LABELS	decision_d	allow_d
+			
+sex_head	Female Head HH	0.106***	0.083***
+		(0.007)	(0.006)
+sex_head_mus	Female Head HH*Muslim	0.044**	0.011
+		(0.019)	(0.018)
+age	Age	0.011***	0.026***
+		(0.001)	(0.001)
+age_sq	Age square	-0.000***	-0.000***
+		(0.000)	(0.000)
+edu_years	Education	-0.001	-0.006***
+		(0.001)	(0.001)
+edu_sq	Education square	0.000	0.001***
+		(0.000)	(0.000)
+muslim	Muslim	0.001	-0.072***
+		(0.009)	(0.011)
+Constant	Constant	-0.072***	0.001
+		(0.024)	(0.021)
+			
+Observations		51,541	70,369
+R-squared		0.238	0.290
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

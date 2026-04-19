@@ -1,0 +1,13 @@
+"Outcome","Period","Bandwidth","N","FemaleRes_Coef","FemaleRes_SE","Interaction_Coef","Interaction_SE","Interaction_pval"
+"coverage13_14","Pre-treatment",0.1,7263,-0.0766,3.0198,5.6867,11.8609,0.6316
+"coverage13_14","Pre-treatment",0.075,5488,0.1079,3.6076,8.8526,14.2653,0.5349
+"coverage13_14","Pre-treatment",0.05,3707,1.2812,4.1139,0.0132,15.523,0.9993
+"coverage14_15","Pre-treatment",0.1,7263,0.3603,3.6731,-15.0971,17.4429,0.3868
+"coverage14_15","Pre-treatment",0.075,5488,1.9683,4.445,-14.431,20.945,0.4908
+"coverage14_15","Pre-treatment",0.05,3707,5.7648,5.5177,-23.6857,24.1645,0.327
+"coverage15_16","Partial (elections Oct 2015)",0.1,7263,4.5455,5.3789,-8.5176,45.7797,0.8524
+"coverage15_16","Partial (elections Oct 2015)",0.075,5488,6.1526,7.008,-13.7332,62.3584,0.8257
+"coverage15_16","Partial (elections Oct 2015)",0.05,3707,4.9077,9.3298,-35.8587,85.37,0.6745
+"coverage16_17","Post-treatment",0.1,7263,-11.6797,7.7336,107.4382,47.5577,0.0239
+"coverage16_17","Post-treatment",0.075,5488,-13.3198,9.4116,131.6849,57.5393,0.0221
+"coverage16_17","Post-treatment",0.05,3707,-18.236,11.743,153.3343,71.3784,0.0317

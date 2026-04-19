@@ -1,0 +1,17 @@
+"outcome","specification","n","female_coef","female_se","interaction_coef","interaction_se","interaction_pval"
+"toiletuse","1_raw_no_controls",7752,0.0771,0.0096,0.1913,0.0359,0
+"toiletuse","2_village_fe_only",7752,0.0846,0.0091,0.1349,0.0457,0.0032
+"toiletuse","3_village_fe_wealth",7752,0.0838,0.0089,0.1286,0.0436,0.0032
+"toiletuse","4_paper_spec",7752,0.0833,0.0088,0.1254,0.0434,0.0038
+"latrine_pref1","1_raw_no_controls",1512,0.0104,0.0276,0.162,0.1268,0.2015
+"latrine_pref1","2_village_fe_only",1477,0.0251,0.0318,0.3486,0.2319,0.1328
+"latrine_pref1","3_village_fe_wealth",1477,0.0231,0.0317,0.3117,0.2192,0.1551
+"latrine_pref1","4_paper_spec",1477,0.0325,0.0327,0.3364,0.2199,0.126
+"latrine_pref2","1_raw_no_controls",1512,-0.027,0.0265,0.2031,0.1219,0.0957
+"latrine_pref2","2_village_fe_only",1477,-0.0206,0.0303,0.4572,0.2074,0.0275
+"latrine_pref2","3_village_fe_wealth",1477,-0.0199,0.0299,0.4181,0.1983,0.035
+"latrine_pref2","4_paper_spec",1477,-0.012,0.0305,0.4339,0.2003,0.0303
+"latrine_pref3","1_raw_no_controls",1512,-0.0032,0.0228,0.1257,0.1049,0.2308
+"latrine_pref3","2_village_fe_only",1477,-0.0072,0.0268,0.369,0.1839,0.0448
+"latrine_pref3","3_village_fe_wealth",1477,-0.0098,0.0266,0.359,0.1794,0.0454
+"latrine_pref3","4_paper_spec",1477,0.0011,0.0273,0.3777,0.1835,0.0396

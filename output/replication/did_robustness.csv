@@ -1,0 +1,4 @@
+"Outcome","Bandwidth","N","Interaction_Coef","Interaction_SE","Interaction_pval"
+"coverage_change",0.1,7263,122.5353,49.0898,0.0126
+"coverage_change",0.075,5488,146.1159,58.7424,0.0129
+"coverage_change",0.05,3707,177.02,72.0807,0.0141

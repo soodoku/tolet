@@ -17,6 +17,8 @@ source("code/replication/00_utils.R")
 #   coverage14_15: Apr 2014 - Mar 2015 (PRE)
 #   coverage15_16: Apr 2015 - Mar 2016 (PARTIAL - elections Oct 2015)
 #   coverage16_17: Apr 2016 - Mar 2017 (POST)
+#   coverage17_18: Apr 2017 - Mar 2018 (POST)
+#   coverage18_19: Apr 2018 - Mar 2019 (POST)
 # =============================================================================
 
 run_pretrends <- function() {
@@ -45,8 +47,8 @@ run_pretrends <- function() {
     })
   }
 
-  outcomes <- c("coverage13_14", "coverage14_15", "coverage15_16", "coverage16_17")
-  periods <- c("Pre-treatment", "Pre-treatment", "Partial (elections Oct 2015)", "Post-treatment")
+  outcomes <- c("coverage13_14", "coverage14_15", "coverage15_16", "coverage16_17", "coverage17_18", "coverage18_19")
+  periods <- c("Pre-treatment", "Pre-treatment", "Partial (elections Oct 2015)", "Post-treatment", "Post-treatment", "Post-treatment")
   bandwidths <- c(0.10, 0.075, 0.05)
 
   cat("============================================================\n")

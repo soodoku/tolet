@@ -40,6 +40,8 @@ FY 2014-15: Apr 2014 - Mar 2015  → Pre-treatment
 Elections:  October 2015          → Treatment (four phases: Oct 9, 13, 17, 29)
 FY 2015-16: Apr 2015 - Mar 2016  → Partially post (Oct 2015 - Mar 2016)
 FY 2016-17: Apr 2016 - Mar 2017  → Post-treatment
+FY 2017-18: Apr 2017 - Mar 2018  → Post-treatment
+FY 2018-19: Apr 2018 - Mar 2019  → Post-treatment
 ```
 
 ## Key Findings
@@ -56,10 +58,18 @@ We test for pre-treatment differential trends by examining the Female × Muslim 
 | 2014-15 | Pre-treatment | 0.39 | 0.49 | 0.33 |
 | 2015-16 | Partial (elections Oct 2015) | 0.85 | 0.83 | 0.67 |
 | **2016-17** | **Post-treatment** | **0.02** | **0.02** | **0.03** |
+| 2017-18 | Post-treatment | 0.39 | 0.25 | 0.30 |
+| 2018-19 | Post-treatment | 0.56 | 0.61 | 0.37 |
 
 **Result:** 0/6 pre-treatment coefficients are significant at p<0.05. The pre-trends test **passes**—no evidence of differential pre-trends in coverage levels between treatment and control GPs by Muslim share.
 
 The interaction becomes significant only in FY 2016-17 (post-treatment), consistent with a causal effect emerging after the October 2015 elections.
+
+**Temporal persistence:** Strikingly, the effect **does not persist** in later post-treatment years:
+- FY 2017-18: Coefficient is *negative* (-54 to -95, depending on bandwidth), non-significant
+- FY 2018-19: Coefficient is *negative* (-32 to -74), non-significant
+
+This pattern—significant positive effect in FY 2016-17 only, followed by null or negative effects in 2017-19—is inconsistent with a persistent treatment effect and raises questions about whether the FY 2016-17 result reflects a true causal effect or a transient anomaly.
 
 ### 1b. DID Robustness: Coverage Change as Outcome
 
